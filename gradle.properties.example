@@ -1,0 +1,20 @@
+// This file contains the fastest Gradle on-demand configuration options we currently know about:
+// Check the link below for more details on this file:
+// https://github.com/android/android-dev-challenge/blob/main/gradle.properties.example
+# Project-wide Gradle settings.
+# IDE (e.g. Android Studio) users:
+# Gradle settings configured through the IDE are ignored when building from the command line, check
+# https://developer.android.com/studio/command-line for more details.
+# When configured, Gradle will run in incubator mode for faster builds
+# Supported for Android Gradle Plugin 7.1 and higher.
+android.enableOnDemandConfiguration=true
+android.useAndroidX=true
+android.nonTransitiveRClass=true
+kotlin.jvm.target=11
+# Enables namespacing of each library's R class so that its R class includes only the
+# resources declared in the library itself and does not include transitive dependencies.
+# Places the R class for this library in a namespace.
+# By default .so libraries are built from src/main/jni/*, src/main/cpp/*, etc., set to override
+# Set true to enable the Java/Kotlin kapt annotation processors to run in parallel when
+# compiling your project. Workers are shared with the Gradle Workers API.
+org.gradle.workers.max=4

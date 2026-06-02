@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kiosk Activation Lock</string>
+    <string name="device_not_active">Device Not Active</string>
+    <string name="activation_message">Your device is not active. Please purchase an activation license.</string>
+    <string name="activate_button">Activate Device</string>
+    <string name="deactivate_button">Deactivate Device (Test)</string>
+    <string name="status_active">Device Status: ACTIVE ✓</string>
+    <string name="status_inactive">Device Status: INACTIVE</string>
+    <string name="device_activated">Device activated successfully!</string>
+    <string name="device_deactivated">Device deactivated. Notification will reappear.</string>
+</resources>

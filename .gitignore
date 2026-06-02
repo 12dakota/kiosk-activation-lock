@@ -1,0 +1,16 @@
+*.apk
+*.obb
+*.class
+*.classpath
+.classpath
+.gradle
+*.iml
+.idea
+.settings
+local.properties
+.DS_Store
+build/
+out/
+.cxx
+*.jks
+.externalNativeBuild
